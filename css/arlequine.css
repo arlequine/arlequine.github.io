@@ -1,0 +1,45 @@
+body {
+  font-family: 'Allerta', sans-serif;
+  margin: 0;
+}
+
+.portada{
+  background-image: url('../images/background.png');
+  background-size: cover;
+  padding: 20px;
+  height: 500px;
+}
+
+.titulo {
+  font-family: 'Kurale';
+  font-size: 70px;
+  margin-bottom: 0;
+  margin-top: 70px;
+  color: #98cd57;
+}
+.contenedor{
+  /*color: white;*/
+}
+.menu{
+  font-size: 24px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.menu li{
+  display: inline-block;
+  margin: 30px;
+}
+
+.neu li:before{
+  content: "\f1d0";
+  font-size: 50px;
+  line-height: 20px;
+  color: #98cd57;
+}
+
+.menu a{
+  color: #98cd57;
+  text-decoration: none;
+}
