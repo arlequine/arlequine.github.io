@@ -1,6 +1,14 @@
 body {
   font-family: 'Allerta', sans-serif;
   margin: 0;
+  color: #1F313C;
+}
+span{
+  font-weight: bold;
+}
+
+.header {
+  position: relative;
 }
 
 .portada{
@@ -14,11 +22,18 @@ body {
   font-family: 'Kurale';
   font-size: 70px;
   margin-bottom: 0;
-  margin-top: 70px;
+  margin-top: 100px;
+  color: #98cd57;
+}
+.title-a {
+  font-size: 44px;
+  margin-top: 0;
   color: #98cd57;
 }
 .contenedor{
-  /*color: white;*/
+  max-width: 800px;
+  margin: auto;
+  position: relative;
 }
 .menu{
   font-size: 24px;
@@ -32,8 +47,8 @@ body {
   margin: 30px;
 }
 
-.neu li:before{
-  content: "\f1d0";
+.menu li:before{
+  /*content: '∘';*/
   font-size: 50px;
   line-height: 20px;
   color: #98cd57;
@@ -42,4 +57,90 @@ body {
 .menu a{
   color: #98cd57;
   text-decoration: none;
+}
+.title-b {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.dato {
+  margin: 10px 10px 40px 10px;
+  padding: 10px;
+  /*overflow: hidden;*/
+  border: 1px solid #1F313C;
+  border-radius: 8px;
+}
+
+.edu {
+  margin: 10px 10px 40px 10px;
+  padding: 10px;
+  /*overflow: hidden;*/
+  border: 1px solid #1F313C;
+  border-radius: 8px;
+}
+
+.exp {
+  margin: 10px 10px 40px 10px;
+  padding: 10px;
+  /*overflow: hidden;*/
+  border: 1px solid #1F313C;
+  border-radius: 8px;
+}
+
+.contenedor-stack{
+  margin: 10px 10px 40px 10px;
+  padding: 10px;
+  /*overflow: hidden;*/
+  border: 1px solid #1F313C;
+  border-radius: 8px;
+}
+
+.contenedor-dato .contenedor-edu .contenedor-exp {
+  padding-left: 20px;
+}
+
+.logotipo {
+  display: inline-block;
+  margin-left: 0;
+}
+.footer {
+  background: #2f3b2c;
+  padding: 50px 10px;
+}
+.contacto {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #98cd57;
+}
+
+
+.contacto strong {|
+  display: block;
+}
+
+.contacto a {
+  color: #98cd57;
+  text-decoration: none;
+  margin: 10px 10px 10px 0;
+}
+
+.footer .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.col1 {
+  align-items: flex-start;
+}
+
+.col1 {
+  color: #98cd57;
+  margin-top: 15px;
 }
